@@ -6,7 +6,20 @@
 <link href="estilos.css" rel="stylesheet" type="text/css" />
 <link href="menu.css" rel="stylesheet" type="text/css">
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
-<script type='text/javascript' src='menu_jquery.js'></script>
+<script>
+$( document ).ready(function() {
+$('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+	$('#cssmenu #menu-button').on('click', function(){
+		var menu = $(this).next('ul');
+		if (menu.hasClass('open')) {
+			menu.removeClass('open');
+		}
+		else {
+			menu.addClass('open');
+		}
+	});
+});  
+</script>
 </head>
 <body>
 <div id="principal">
