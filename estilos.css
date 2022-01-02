@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+@media (min-width:960px) {
+    #principal {
+        width: 960px;
+        margin: 30px auto 0;
+        background-color: rgb(42, 173, 101);
+    }
+    #dados {
+        display: none;
+    }
+    #topo {
+        width: 960px;
+        height: 184px;
+        margin: 30px 0 0 0;
+        background-image: url(img/fundo-topo.jpg);
+        background-color: #CCC;
+        background-repeat: repeat-x;
+    }
+    #logo {
+        margin: 30px auto 0;
+        width: 260px;
+        height: 184px;
+    }
+    #logo img {
+        max-width: 240px;
+        max-height: 184px;
+    }
+    #conteudo {
+        clear: both;
+        width: 960px;
+        margin: 0;
+    }
+    .bc {
+        float: left;
+        width: 435px;
+        margin: 30px 0 0 30px;
+        background-color: #099;
+    }
+    .bc p {
+        margin: 10px;
+    }
+    .bc img {
+        width: 435px;
+    }
+    #rodape {
+        width: 960px;
+        color: #fff;
+    }
+    .br {
+        float: left;
+        width: 280px;
+        margin: 30px 0 30px 30px;
+        background-color: #666;
+    }
+    .br p,
+    .br h2 {
+        margin: 10px;
+    }
+    hr {
+        width: 0;
+        clear: both;
+    }
+}
+
+@media (min-width:481px) and (max-width:959px) {
+    #principal {
+        width: 90%;
+        margin: 30px 5% 0 5%;
+        background-color: #CCC;
+    }
+    #dados {
+        display: none;
+    }
+    #topo {
+        width: 100%;
+        margin: 30px 0 0 0;
+        background-image: url(img/fundo-topo.jpg);
+        background-color: #CCC;
+        background-repeat: repeat-x;
+    }
+    #logo {
+        margin: 30px auto 0;
+        max-width: 120px;
+        max-height: 92px;
+    }
+    #logo img {
+        margin-top: 40px;
+        max-width: 120px;
+        max-height: 92px;
+    }
+    #conteudo {
+        clear: both;
+        width: 90%;
+        margin: 30px 5% 0;
+    }
+    .bc {
+        float: left;
+        width: 47.5%;
+        background-color: #099;
+    }
+    #c1 {
+        margin: 30px 0 0 0;
+    }
+    #c2 {
+        margin: 30px 0 0 5%;
+    }
+    .bc p {
+        margin: 10px;
+    }
+    .bc img {
+        width: 100%;
+    }
+    #rodape {
+        width: 100%;
+        color: #fff;
+    }
+    .br {
+        float: left;
+        width: 90%;
+        margin: 20px 5% 0;
+        background-color: #666;
+    }
+    .br p,
+    .br h2 {
+        margin: 10px;
+    }
+    hr {
+        width: 0;
+        clear: both;
+    }
+}
+
+@media (max-width:480px) {
+    #principal {
+        width: 320px;
+        margin: 10px auto 0;
+        background-color: #CCC;
+    }
+    #topo {
+        width: 320px;
+        height: 184px;
+        margin: 10px 0 0 0;
+        background-image: url(img/fundo-topo.jpg);
+        background-color: #CCC;
+        background-repeat: repeat-x;
+    }
+    #logo {
+        margin: 0 auto;
+        width: 120px;
+        height: 92px;
+    }
+    #logo img {
+        margin-top: 40px;
+        max-width: 120px;
+        max-height: 92px;
+    }
+    #conteudo {
+        clear: both;
+        width: 320px;
+        margin: 0;
+    }
+    .bc {
+        width: 280px;
+        margin: 20px 0 20px 20px;
+        background-color: #099;
+    }
+    .bc p {
+        margin: 10px;
+    }
+    .bc img {
+        width: 280px;
+    }
+    #rodape {
+        width: 320px;
+        color: #fff;
+    }
+    #r3 {
+        display: none;
+    }
+    .br {
+        float: left;
+        width: 280px;
+        margin: 20px 0 0 20px;
+        background-color: #666;
+    }
+    .br p,
+    .br h2 {
+        margin: 10px;
+    }
+    hr {
+        width: 0;
+        clear: both;
+    }
+}
